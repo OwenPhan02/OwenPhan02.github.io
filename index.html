@@ -97,9 +97,9 @@ button{font:inherit}
 .avatar img{width:100%;height:100%;object-fit:cover}
 .box{background:var(--bg);box-shadow:calc(8 * var(--u)) calc(10 * var(--u)) calc(30 * var(--u)) rgba(119,126,130,.16)}
 /* social + phone boxes size from the visual's own width (cqw) so they stay balanced at any screen size */
-.l-social{left:50%;top:72%;width:auto;height:auto;margin-left:-28cqw}
-.social{display:flex;align-items:center;justify-content:space-evenly;width:56cqw;height:19cqw;border-radius:5.5cqw}
-.social a{display:grid;place-items:center;width:10cqw;height:10cqw;flex:none;transition:translate .5s var(--spring),scale .5s var(--spring)}
+.l-social{left:50%;top:72%;width:auto;height:auto;margin-left:-34cqw}
+.social{display:flex;align-items:center;justify-content:space-evenly;width:68cqw;height:17cqw;border-radius:5.5cqw}
+.social a{display:grid;place-items:center;width:9cqw;height:9cqw;flex:none;transition:translate .5s var(--spring),scale .5s var(--spring)}
 .social a:hover{translate:0 -10%;scale:1.1}
 .social a img{width:100%;height:100%;object-fit:contain}
 .l-phone{left:3%;top:5%;width:auto;height:auto}
@@ -190,6 +190,7 @@ button{font:inherit}
 .chip svg{width:100%;height:100%}
 .chip .ci.g{background:#fff;box-shadow:inset 0 0 0 1px var(--line)}
 .chip .ci.g img{width:58%}
+.chip .ci.b img{width:100%;height:100%}
 
 /* ================= MODAL ================= */
 .modal{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:20px;visibility:hidden}
@@ -324,6 +325,8 @@ button{font:inherit}
           <a class="fb" style="--i:0" href="https://www.facebook.com/owenphan02/" target="_blank" rel="noopener" aria-label="Facebook"><img src="assets/icon-facebook.png" alt="" width="128" height="128"></a>
           <a class="ig" style="--i:1" aria-label="Instagram"><img src="assets/icon-instagram.png" alt="" width="128" height="128"></a>
           <a class="yt" style="--i:2" aria-label="YouTube"><img src="assets/icon-youtube.png" alt="" width="128" height="128"></a>
+          <a class="li" style="--i:3" href="https://www.linkedin.com/in/vi%E1%BB%87t-h%C3%B9ng-phan-c%C3%B4ng-b1b479398/" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="assets/icon-linkedin.svg" alt="" width="128" height="128"></a>
+          <a class="be" style="--i:4" href="https://www.behance.net/vithng31" target="_blank" rel="noopener" aria-label="Behance"><img src="assets/icon-behance.svg" alt="" width="128" height="128"></a>
         </div>
       </div>
       <div class="layer l-phone" data-depth="30">
@@ -380,6 +383,14 @@ button{font:inherit}
       <a class="chip box" href="mailto:hungpcv02.work@gmail.com">
         <span class="ci g"><img src="assets/icon-gmail.png" alt="" width="256" height="256"></span>
         hungpcv02.work@gmail.com
+      </a>
+      <a class="chip box" href="https://www.linkedin.com/in/vi%E1%BB%87t-h%C3%B9ng-phan-c%C3%B4ng-b1b479398/" target="_blank" rel="noopener">
+        <span class="ci b"><img src="assets/icon-linkedin.svg" alt="" width="128" height="128"></span>
+        LinkedIn
+      </a>
+      <a class="chip box" href="https://www.behance.net/vithng31" target="_blank" rel="noopener">
+        <span class="ci b"><img src="assets/icon-behance.svg" alt="" width="128" height="128"></span>
+        Behance
       </a>
     </div>
   </section>
